@@ -1,0 +1,23 @@
+import 'package:flutter/material.dart';
+
+class NotificationScreen extends StatefulWidget {
+  static String id = 'notification_screen';
+  @override
+  _NotificationScreenState createState() => _NotificationScreenState();
+}
+
+class _NotificationScreenState extends State<NotificationScreen> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back),
+          onPressed: () => Navigator.pop(context),
+        ),
+        title: Text('Notification'),
+        centerTitle: true,
+      ),
+    );
+  }
+}
