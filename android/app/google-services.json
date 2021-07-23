@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1099456111756",
+    "project_id": "trade-off-fa6a8",
+    "storage_bucket": "trade-off-fa6a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099456111756:android:3181cffc52b5c35332c7a9",
+        "android_client_info": {
+          "package_name": "com.example.tradeoff5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099456111756-0fttc12n7k7r2vucp33cmb5tcopght5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3sLENlhF5xZESnGnLvW46E_Px716hfuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099456111756-0fttc12n7k7r2vucp33cmb5tcopght5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
