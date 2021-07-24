@@ -37,7 +37,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Trade-Off',
-      initialRoute: Main.id,
+      initialRoute: WelcomeScreen.id,
       theme: ThemeData(fontFamily: 'Balsamiq_Sans'),
       routes: {
         WelcomeScreen.id: (context) => WelcomeScreen(),

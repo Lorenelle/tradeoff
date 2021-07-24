@@ -100,7 +100,6 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                 controller: _idNoController,
                 keyboardType: TextInputType.number,
                 textInputAction: TextInputAction.done,
-                obscureText: true,
                 cursorColor: Color(COLOR_PRIMARY),
                 decoration: InputDecoration(
                     contentPadding:

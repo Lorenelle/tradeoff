@@ -115,14 +115,17 @@ class _LoginScreenState extends State<LoginScreen> {
                         color: Colors.white,
                       ),
                     ),
-                    onPressed: () {
+                    onPressed: () async {
                       final String email = _emailController.text.trim();
                       final String password = _passwordController.text.trim();
 
                       try {
                         context.read<AuthService>().login(email, password);
                         if (email != null && password != null) {
-                          _databaseService.searchByEmail(email);
+                          dynamic data =
+                              await _databaseService.searchByEmail(email);
+                          HelperService.saveUID(data.id);
+                          HelperService.saveEmail(email.toLowerCase());
                           Navigator.pushNamed(context, Main.id);
                         }
                         setState(() {
