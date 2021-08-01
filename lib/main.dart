@@ -5,6 +5,7 @@ import 'package:tradeoff5/screens/login_screen.dart';
 import 'package:tradeoff5/screens/main.dart';
 import 'package:tradeoff5/screens/registration_screen.dart';
 import 'package:tradeoff5/screens/welcome_screen.dart';
+import 'package:tradeoff5/screens/publish_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:tradeoff5/services/helper.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -37,7 +38,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Trade-Off',
-      initialRoute: WelcomeScreen.id,
+      initialRoute: Publish.id,
       theme: ThemeData(fontFamily: 'Balsamiq_Sans'),
       routes: {
         WelcomeScreen.id: (context) => WelcomeScreen(),
