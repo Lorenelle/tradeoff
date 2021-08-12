@@ -7,6 +7,14 @@ class AuthService {
 
   Stream<User> get authStateChanges => _auth.idTokenChanges();
 
+  String getCurrentUID() {
+    return _auth.currentUser.uid;
+  }
+
+  Future getCurrentUser() async {
+    return _auth.currentUser;
+  }
+
   Future<String> login(String email, String password) async {
     try {
       _auth.signInWithEmailAndPassword(email: email, password: password);
