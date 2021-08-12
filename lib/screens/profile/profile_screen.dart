@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tradeoff5/screens/profile/profile.dart';
 
 class Profile extends StatefulWidget {
   static String id = 'profile_screen';
@@ -18,6 +19,7 @@ class _ProfileState extends State<Profile> {
         title: Text('Profile'),
         centerTitle: true,
       ),
+      body: ProfileBody(),
     );
   }
 }

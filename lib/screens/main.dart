@@ -3,7 +3,7 @@ import 'package:tradeoff5/screens/home.dart';
 import 'package:tradeoff5/screens/favorite_screen.dart';
 import 'package:tradeoff5/screens/publish_screen.dart';
 import 'package:tradeoff5/screens/notification_screen.dart';
-import 'package:tradeoff5/screens/profile_screen.dart';
+import 'package:tradeoff5/screens/profile/profile_screen.dart';
 
 class Main extends StatefulWidget {
   static String id = 'main_screen';
